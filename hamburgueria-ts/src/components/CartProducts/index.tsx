@@ -5,6 +5,7 @@ import CardProduct from "../CardProduct";
 import CardProductInCart from "../CardProductInCart";
 
 interface Product {
+  id: number;
   name: string;
   category: string;
   price: number;
@@ -44,6 +45,7 @@ const CartProducts = () => {
         {newCartUnique.map((item, index) => (
           <CardProductInCart
             key={index}
+            id={item.id}
             name={item.name}
             category={item.category}
             price={item.price}

@@ -6,6 +6,7 @@ import "../../GlobalStyle/main.css";
 import CardProductInCart from "../CardProductInCart";
 
 interface Product {
+  id: number;
   name: string;
   category: string;
   price: number;

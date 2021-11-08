@@ -8,6 +8,7 @@ import "./style.css";
 import CartProducts from "../../components/CartProducts";
 
 interface Product {
+  id: number;
   name: string;
   category: string;
   price: number;
@@ -29,6 +30,7 @@ const Home = () => {
       <div className="grade_home_showProducts">
         {products.map((item) => (
           <CardProduct
+            id={item.id}
             name={item.name}
             category={item.category}
             price={item.price}

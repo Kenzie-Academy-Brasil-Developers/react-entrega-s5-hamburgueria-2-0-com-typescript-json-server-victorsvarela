@@ -4,6 +4,7 @@ import { useContext, useEffect, useState } from "react";
 import { BiTrash } from "react-icons/bi";
 
 interface Product {
+  id: number;
   name: string;
   category: string;
   price: number;
