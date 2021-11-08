@@ -1,0 +1,26 @@
+input {
+  width: 300px;
+  padding: 6px;
+  border: none;
+  margin: 7px 0;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 8px 0;
+  margin-top: 10px;
+  background-color: var(--color-primary);
+  border-radius: 5px;
+  border: none;
+}
+
+p.paragraph_crie_sua-conta {
+  font-size: 9px;
+  color: var(--color-grey-100);
+}
+
+button.btn_login_for_register {
+  background-color: var(--color-grey-0);
+  color: var(--color-grey-300);
+}
